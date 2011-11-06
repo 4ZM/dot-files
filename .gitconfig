@@ -1,0 +1,16 @@
+[user]
+	name = Anders Sundman
+	email = anders@4zm.org
+[core]
+	editor = /usr/bin/emacs
+	autocrlf = input
+[merge]
+	tool = meld
+[color]
+	ui = auto
+[alias]
+	s = status
+	d = diff
+	pur = pull --rebase
+	lpo = log --pretty=oneline --abbrev-commit --graph --decorate --all
+  mnf = merge --no-ff
