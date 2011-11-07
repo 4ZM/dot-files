@@ -40,6 +40,9 @@
 ;; Better bufferswitching
 (ido-mode 1)
 
+;; Automatic reloading of open buffers
+(global-auto-revert-mode t)
+
 ;; Better hilights of  (), {} and []
 (require 'paren) (show-paren-mode t)
 
